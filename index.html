@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+	<link rel="stylesheet" href="style.css">
+	<title>Document</title>
+</head>
+
+<body onload="action()">
+	<!-- Don't edit the markup! -->
+
+	<section>
+		<article id="first" class="delete">
+			<h2>Item One 😇</h2>
+			<p>Lorem ipsum dolor sit amet</p>
+			<button data-action="start" id="start1" onclick="firstMove()">Move to start</button>
+			<button data-action="delete" onclick="firstDelete()">Delete</button>
+		</article>
+
+		<article id="second" class="delete">
+			<h2>Item Two 👿</h2>
+			<p>Lorem ipsum dolor sit amet</p>
+			<button data-action="start" id="start2" onclick="secondMove()">Move to start</button>
+			<button data-action="delete" onclick="firstDelete()">Delete</button>
+		</article>
+
+		<article id="third" class="delete">
+			<h2>Item Three 👻</h2>
+			<p>Lorem ipsum dolor sit amet</p>
+			<button data-action="start" id="start3" onclick="thirdMove()">Move to start</button>
+			<button data-action="delete" onclick="firstDelete()">Delete</button>
+		</article>
+	</section>
+	<script src="index.js"></script>
+</body>
+
+</html>
